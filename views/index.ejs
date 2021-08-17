@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include("./partials/head.ejs", { title: title }) %>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar"><span class="cart-icon"> shopping_cart </span></div>
+
+      <!-- Product List -->
+      <div class="products-list">
+        <% products.forEach((product) => { %>
+          <%- include("./products/product.ejs", { ...product }) %>
+        <% }) %>
+      </div>
+      <!-- End Product List -->
+
+      <!-- Cart -->
+      <%- include("./cart/cart.ejs") %>
+      <!-- End Cart -->
+    </div>
+    <!-- End Container -->
+    <script src="/javascripts/app.js"></script>
+  </body>
+</html>

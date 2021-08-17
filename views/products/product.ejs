@@ -1,0 +1,28 @@
+<!-- Product -->
+<div class="product" data-title="<%= title %>" data-price="<%= price %>">
+  <!-- Product Image -->
+  <div class="product__image">
+    <img src="/images/product-image.webp" class="product__image" />
+    <button class="cart__button cart__button--list" data-add-product>
+      Add
+    </button>
+  </div>
+  <!-- End Product Image -->
+  <div class="product__title"><%= title %></div>
+  <div class="product__price"><%= price %></div>
+  <div class="product__rating">
+    <div class="rating">
+      <span class="rating__star"> star </span>
+
+      <span class="rating__star"> star </span>
+
+      <span class="rating__star"> star </span>
+
+      <span class="rating__star"> star </span>
+
+      <span class="rating__star"> star </span>
+    </div>
+    <div class="rating__total">(<%= ratingTotal %>)</div>
+  </div>
+</div>
+<!-- End Product -->
