@@ -7,19 +7,14 @@
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-- [x] Tarefa 1
-- [x] Tarefa 2
-- [x] Tarefa 3
-- [ ] Tarefa 4
-- [ ] Tarefa 5
+- [ ] Integração com Banco de Dados Relacional (PostgreSQL)
+- [ ] Testes Unitários com Jest
 
 ## 💻 Pré-requisitos
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
-<!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
-* Você instalou a versão mais recente de `<linguagem / dependência / requeridos>`
-* Você tem uma máquina `<Windows / Linux / Mac>`. Indique qual sistema operacional é compatível / não compatível.
-* Você leu `<guia / link / documentação_relacionada_ao_projeto>`.
+
+* Você instalou a versão mais recente do `NodeJS` na sua máquina.
 
 ## 🚀 Instalando Shopping Cart Express
 
@@ -37,7 +32,7 @@ Para usar Shopping Cart Express, siga estas etapas:
 yarn start
 ```
 
-Acesse:
+Acesse no seu navegador favorito:
 ```
 http://localhost:3000
 ```
